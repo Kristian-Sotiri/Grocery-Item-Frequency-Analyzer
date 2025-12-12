@@ -16,7 +16,7 @@ public:
 
 private:
 	string userInput;
-	const string fileName = "CS210_Project_Three_Input_File.txt";
+	const string fileName = "Input_File.txt";
 	const string backupFile = "frequency.dat";
 	vector<string> Products; // Vector to store items
 	map<string, int> itemFrequency; // Map to track item frequencies
